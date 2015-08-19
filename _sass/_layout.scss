@@ -172,7 +172,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+  
 }
 
 .page-heading {
@@ -243,4 +243,28 @@
             font-size: 18px;
         }
     }
+}
+/**
+ * Home
+ */
+.banner {
+    overflow: hidden;
+    width: 100%;
+    height: 30em;
+    img {width:100%; margin-top: -180px;}
+}
+
+.main_topics {
+    width:100%;
+    display: block;
+    
+    .topic {
+        width:30%;
+        height:200px;
+        background-color: red;
+        float: left;
+        
+    }
+    #t2 {margin-left:5%; margin-right: 5%;}
+    #t3 {background-color: blue;}
 }

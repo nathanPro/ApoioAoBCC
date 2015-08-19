@@ -4,20 +4,30 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Apoio ao BCC</h1>
+  <div class="banner">
+    <img src="visual/placeholder.jpg" >
+</div>
+    
+<div class="wrapper">
+  
+    <div class="main_topics">
+        <div class="topic" id="t1">
+            
+            <h3>Coisas Acadêmicas</h3>
+        
+        </div>
+        <div class="topic" id="t2">
+            
+            <h3>Textos</h3>
+        
+        </div>
+        <div class="topic" id="t3">
+            
+            <h3>Multimídia</h3>
+        
+        </div>
+        
+    </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+</div>
 </div>
