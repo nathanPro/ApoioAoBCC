@@ -1,3 +1,8 @@
+//Variáveis
+$cor1: #4CAE4E; //Verde
+$cor2: #3374BA; //Azul
+$cor3: #8F3E97; //Roxo
+
 /**
  * Site header
  */
@@ -263,18 +268,45 @@
     .topic {
         width:30%;
         height:200px;
-        background-color: red;
         float: left;
         color: white;
+        line-height: 200px;
+        font-size: 1.2em;
         
         h3 {
             text-align: center;
             margin: auto;
             vertical-align: middle;
         }
+        h4 {
+             text-align: center;
+            margin: auto;
+        }
         
     }
-    #t1 {background-color: #3374BA;}
-    #t2 {margin-left:5%; margin-right: 5%; background-color: #8F3E97;}
-    #t3 {background-color: #4CAE4E;}
+    #t1 {background-color: $cor1;}
+    #t2 {margin-left:5%; margin-right: 5%; background-color: $cor2;}
+    #t3 {background-color: $cor3;}
+}
+
+.sections {
+    
+    width:100%;
+    margin-top: 60px;
+    
+    .section {
+        padding-top: 20px;
+        height:600px;
+        h1 {
+            text-align: center;
+            color:white;
+            font-weight: 400;
+            font-size: 2.1em;
+            
+        }
+    }
+    
+    #academicos {
+        background-color: $cor1;
+    }
 }
