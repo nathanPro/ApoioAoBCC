@@ -257,14 +257,24 @@
 .main_topics {
     width:100%;
     display: block;
+    margin-top: 30px;
+    
     
     .topic {
         width:30%;
         height:200px;
         background-color: red;
         float: left;
+        color: white;
+        
+        h3 {
+            text-align: center;
+            margin: auto;
+            vertical-align: middle;
+        }
         
     }
-    #t2 {margin-left:5%; margin-right: 5%;}
-    #t3 {background-color: blue;}
+    #t1 {background-color: #3374BA;}
+    #t2 {margin-left:5%; margin-right: 5%; background-color: #8F3E97;}
+    #t3 {background-color: #4CAE4E;}
 }
