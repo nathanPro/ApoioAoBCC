@@ -262,7 +262,8 @@ $cor3: #8F3E97; //Roxo
 .main_topics {
     width:100%;
     display: block;
-    margin-top: 30px;
+    overflow: hidden;
+    margin-top: 60px;
     
     
     .topic {
@@ -296,17 +297,34 @@ $cor3: #8F3E97; //Roxo
     
     .section {
         padding-top: 20px;
-        height:600px;
+        //margin-bottom:5px;
+        border-bottom:5px solid #fff;
+        height:700px;
         width: 100%;
         h1 {
             text-align: center;
             color:white;
             font-weight: 400;
             font-size: 2.1em;
+            margin-bottom:80px;
+        }
+        .grafo {
+            width: 60%;
+            max-width:769px;
+            margin:auto;
         }
     }
     
     #academicos {
         background-color: $cor1;
+        .bolota:hover {
+            display:none;
+        }
+    }
+    #blog {
+        background-color: $cor2;
+    }
+    #multimidia {
+        background-color: $cor3;
     }
 }
