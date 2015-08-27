@@ -317,9 +317,27 @@ $cor3: #8F3E97; //Roxo
     
     #academicos {
         background-color: $cor1;
-        .bolota:hover {
-            display:none;
+        .cover1 {
+            background:transparent; 
+            position:relative; 
+            height:138px; /* your circle height */
+            width: 138px; /* yout circle width */
+            top:275px;  /* your circle height */
+            left:10px;
+            margin-top:-138px;  /* your circle height */
+            border-radius: 100px;
         }
+        .cover2 {
+            background:transparent; 
+            position:relative; 
+            height:138px; /* your circle height */
+            width: 138px; /* yout circle width */
+            top:138px;  /* your circle height */
+            left:300px;
+            margin-top:-138px;  /* your circle height */
+            border-radius: 100px;
+        }
+        
     }
     #blog {
         background-color: $cor2;
