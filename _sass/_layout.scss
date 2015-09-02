@@ -313,6 +313,17 @@ $cor3: #8F3E97; //Roxo
             max-width:769px;
             margin:auto;
         }
+        .descricao {
+            width: 60%;
+            margin: auto;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            margin-top: 40px;
+            
+            h4 {font-size: 1.5em; margin-left: 20px; margin-top: 20px;}
+            p {margin-left: 20px;}
+        }
     }
     
     #academicos {
@@ -336,6 +347,11 @@ $cor3: #8F3E97; //Roxo
             left:300px;
             margin-top:-138px;  /* your circle height */
             border-radius: 100px;
+        }
+        
+        #da1 {
+            display:block;
+            height: 200px;
         }
         
     }
