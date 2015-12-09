@@ -1,7 +1,7 @@
 # Site settings
 title: Apoio ao BCC
 email: apoiobcc@linux.ime.usp.br
-description: "O Apoio ao BCC é um projeto da Comissão de Coordenação (CoC) do BCC do IME-USP financiado pelo Programa Ensinar com Pesquisa da Pró-Reitoria de Graduação da USP e pelo IME-USP. Com este projeto a CoC pretende: diminuir a evasão do BCC através de uma maior integração das disciplinas e de um currículo mais atraente e atual; criar vínculos com ex-alunos através de pesquisas, divulgação de eventos e mantendo um acervo com vídeos e fotos; pesquisar grades curriculares de ciência da computação para uma eventual reformulação da grade curricular do BCC; e preparar vídeos curtos de apresentação das disciplinas do BCC."
+description: "O Apoio ao BCC é um projeto da Comissão de Coordenação (CoC) do BCC do IME-USP financiado pelo Programa Ensinar com Pesquisa da Pró-Reitoria de Graduação da USP e pelo IME-USP."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
