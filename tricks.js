@@ -4,6 +4,16 @@ $(window).load(function() {
     }, function(){
         $("#da1").fadeOut();
     });
+    $(".blog_cover").hover(function(){
+        $("#da2").fadeIn();
+    }, function(){
+        $("#da2").fadeOut();
+    });
+    $(".media_cover").hover(function(){
+        $("#da3").fadeIn();
+    }, function(){
+        $("#da3").fadeOut();
+    });
     $("#ga11").hover(function(){
         $("#d_tccs").show();
         $("#d_matrusp").hide();
@@ -19,8 +29,9 @@ $(window).load(function() {
     });
     $("#ga13").hover(function(){
         $("#d_tccs").hide();
-        $("#d_matrusp").show();
-        $("#d_grade").hide();
+        $("#d_matrusp").hide();
+        $("#d_grade").show();
     }, function(){
+        $("#d_grade").fadeOut();
     });
 });
