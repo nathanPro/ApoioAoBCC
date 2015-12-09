@@ -58,4 +58,26 @@ $(window).load(function() {
     }, function(){
         $("#d_colunas").fadeOut();
     });
+
+    $("#ga31").hover(function(){
+        $("#d_pictures").show();
+        $("#d_youtube").hide();
+        $("#d_face").hide();
+    }, function(){
+        $("#d_pictures").fadeOut();
+    });
+    $("#ga32").hover(function(){
+        $("#d_pictures").hide();
+        $("#d_youtube").show();
+        $("#d_face").hide();
+    }, function(){
+        $("#d_youtube").fadeOut();
+    });
+    $("#ga33").hover(function(){
+        $("#d_pictures").hide();
+        $("#d_youtube").hide();
+        $("#d_face").show();
+    }, function(){
+        $("#d_face").fadeOut();
+    });
 });
