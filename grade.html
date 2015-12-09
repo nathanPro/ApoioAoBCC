@@ -19,7 +19,7 @@ layout: default
 		  {% for post in site.posts %}
             {% if post.categories contains 'grade' %}
 		      <li>
-		        <a href="{{ post.url }}">{{ post.title }}</a>
+		        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 		      </li>
             {% endif %}
 		  {% endfor %}
