@@ -101,6 +101,14 @@ $cor3: #8F3E97; //Roxo
     }
 }
 
+h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.9em;
+    margin-bottom:80px;
+    color: #2B2B2B;
+}
+
 
 
 /**
@@ -252,127 +260,128 @@ $cor3: #8F3E97; //Roxo
 /**
  * Home
  */
-.banner {
-    overflow: hidden;
-    width: 100%;
-    height: 30em;
-    img {width:100%; margin-top: -180px;}
-}
 
-.main_topics {
-    width:100%;
-    display: block;
-    overflow: hidden;
-    margin-top: 60px;
-    
-    
-    .topic {
-        width:30%;
-        height:200px;
-        float: left;
-        color: white;
-        line-height: 200px;
-        font-size: 1.2em;
-        
-        h3 {
-            text-align: center;
-            margin: auto;
-            vertical-align: middle;
-        }
-        h4 {
-             text-align: center;
-            margin: auto;
-        }
-        
-    }
-    #t1 {background-color: $cor1;}
-    #t2 {margin-left:5%; margin-right: 5%; background-color: $cor2;}
-    #t3 {background-color: $cor3;}
-}
-
-.sections {
-    
-    width:100%;
-    margin-top: 60px;
-    
-    .section {
-        padding-top: 20px;
-        //margin-bottom:5px;
-        border-bottom:5px solid #fff;
-        height:700px;
+.home { 
+    .banner {
+        overflow: hidden;
         width: 100%;
-        h1 {
-            text-align: center;
-            color:white;
-            font-weight: 400;
-            font-size: 2.1em;
-            margin-bottom:80px;
-        }
-        .grafo {
-            width: 60%;
-            max-width:769px;
-            margin:auto;
-        }
-        .descricao {
-            display: block;
-            width: 60%;
-            margin: auto;
-            color: white;
-            border: 2px solid white;
-            border-radius: 10px;
-            margin-top: 40px;
-            
-            h4 {font-size: 1.5em; margin-left: 20px; margin-top: 20px;}
-            p {margin-left: 20px;}
-        }
+        height: 30em;
+        img {width:100%; margin-top: -180px;}
     }
-    
-    #academicos {
-        background-color: $cor1;
+
+    .main_topics {
+        width:100%;
         display: block;
-        height: 760px;
-        .cover1 {
-            background:transparent; 
-            position:relative; 
-            height:138px; /* your circle height */
-            width: 138px; /* yout circle width */
-            top:275px;  /* your circle height */
-            left:10px;
-            margin-top:-138px;  /* your circle height */
-            border-radius: 100px;
+        overflow: hidden;
+        margin-top: 60px;
+        
+        
+        .topic {
+            width:30%;
+            height:200px;
+            float: left;
+            color: white;
+            line-height: 200px;
+            font-size: 1.2em;
+            
+            h3 {
+                text-align: center;
+                margin: auto;
+                vertical-align: middle;
+            }
+            h4 {
+                 text-align: center;
+                margin: auto;
+            }
+            
         }
-        .cover2 {
-            background:transparent; 
-            position:relative; 
-            height:138px; /* your circle height */
-            width: 138px; /* yout circle width */
-            top:142px;  /* your circle height */
-            left:300px;
-            margin-top:-138px;  /* your circle height */
-            border-radius: 100px;
-        }
-        .cover3 {
-            background:transparent; 
-            position:relative; 
-            height:138px; /* your circle height */
-            width: 138px; /* yout circle width */
-            top:192px;  /* your circle height */
-            left:621px;
-            margin-top:-138px;  /* your circle height */
-            border-radius: 100px;
-        }
-        #da1 {
-            // background-color: #FFF;
-            // color: $cor1;
-            display: none;
-            height: 800px;
+        #t1 {background-color: $cor1;}
+        #t2 {margin-left:5%; margin-right: 5%; background-color: $cor2;}
+        #t3 {background-color: $cor3;}
+    }
+
+    .sections {
+        
+        width:100%;
+        margin-top: 60px;
+        
+        .section {
+            padding-top: 20px;
+            //margin-bottom:5px;
+            border-bottom:5px solid #fff;
+            height:700px;
+            width: 100%;
+            h1 {
+               
+                color:white;
+                font-size: 2.1em;
+            }
+            .grafo {
+                width: 60%;
+                max-width:769px;
+                margin:auto;
+            }
+            .descricao {
+                display: block;
+                width: 60%;
+                margin: auto;
+                color: white;
+                border: 2px solid white;
+                border-radius: 10px;
+                margin-top: 40px;
+                
+                h4 {font-size: 1.5em; margin-left: 20px; margin-top: 20px;}
+                p {margin-left: 20px;}
+            }
         }
         
-    }
-    #blog {
-        background-color: $cor2;
-    }
-    #multimidia {
-        background-color: $cor3;
+        #academicos {
+            background-color: $cor1;
+            display: block;
+            height: 760px;
+            .cover1 {
+                background:transparent; 
+                position:relative; 
+                height:138px; /* your circle height */
+                width: 138px; /* yout circle width */
+                top:275px;  /* your circle height */
+                left:10px;
+                margin-top:-138px;  /* your circle height */
+                border-radius: 100px;
+            }
+            .cover2 {
+                background:transparent; 
+                position:relative; 
+                height:138px; /* your circle height */
+                width: 138px; /* yout circle width */
+                top:142px;  /* your circle height */
+                left:300px;
+                margin-top:-138px;  /* your circle height */
+                border-radius: 100px;
+            }
+            .cover3 {
+                background:transparent; 
+                position:relative; 
+                height:138px; /* your circle height */
+                width: 138px; /* yout circle width */
+                top:192px;  /* your circle height */
+                left:621px;
+                margin-top:-138px;  /* your circle height */
+                border-radius: 100px;
+            }
+            #da1 {
+                // background-color: #FFF;
+                // color: $cor1;
+                display: none;
+                height: 800px;
+            }
+            
+        }
+        #blog {
+            background-color: $cor2;
+        }
+        #multimidia {
+            background-color: $cor3;
+        }
     }
 }
