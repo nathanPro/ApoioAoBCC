@@ -309,7 +309,8 @@ h1 {
             padding-top: 20px;
             //margin-bottom:5px;
             border-bottom:5px solid #fff;
-            height:700px;
+            height:600px;
+            overflow:hidden;
             width: 100%;
             h1 {
                
@@ -338,7 +339,6 @@ h1 {
         #academicos {
             background-color: $cor1;
             display: block;
-            height: 760px;
             .cover1 {
                 background:transparent; 
                 position:relative; 
