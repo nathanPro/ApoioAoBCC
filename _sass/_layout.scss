@@ -384,17 +384,15 @@ h1 {
             }
         }
         
+        #da1, #da2, #da3 {
+            // background-color: #FFF;
+            // color: $cor1;
+            display: none;
+            height: 800px;
+        }
+
         #academicos {
             background-color: $cor1;
-            display: block;
-            
-            #da1 {
-                // background-color: #FFF;
-                // color: $cor1;
-                display: none;
-                height: 800px;
-            }
-            
         }
         #blog {
             background-color: $cor2;
