@@ -6,6 +6,7 @@ $cor3: #8F3E97; //Roxo
 /**
  * Site header
  */
+
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     min-height: 70px;
@@ -222,8 +223,6 @@ h1 {
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
@@ -238,30 +237,6 @@ h1 {
 
 .post-content {
     margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
 }
 
 .line {
